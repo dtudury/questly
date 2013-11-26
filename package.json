@@ -1,6 +1,6 @@
 {
   "name": "questly",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "promise based browserifiable request wrapper",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
     "url": "https://github.com/dtudury/questly/issues"
   },
   "dependencies": {
-    "q": "~0.9.7"
+    "when": "~2.6.0"
   }
 }
