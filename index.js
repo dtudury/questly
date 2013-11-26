@@ -1,12 +1,8 @@
-var qRequestNode = require('./lib/qRequestNode');
-var qRequestBrowser = require('./lib/qRequestBrowser');
-
-
 function request(options, body, method) {
     if (typeof document === "undefined") {
-        return qRequestNode(options, body, method);
+        return require('./lib/qRequestNode')(options, body, method);
     } else {
-        return qRequestBrowser(options, body, method);
+        return require('./lib/qRequestBrowser')(options, body, method);
     }
 }
 

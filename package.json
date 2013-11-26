@@ -1,6 +1,6 @@
 {
   "name": "questly",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "promise based browserifiable request wrapper",
   "main": "index.js",
   "scripts": {
