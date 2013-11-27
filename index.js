@@ -1,9 +1,5 @@
 function request(options, body, method) {
-    if (typeof document === "undefined") {
-        return require('./lib/qRequestNode')(options, body, method);
-    } else {
-        return require('./lib/qRequestBrowser')(options, body, method);
-    }
+    return require('./lib/qRequestNode')(options, body, method); //shimmed for browser in package.json
 }
 
 

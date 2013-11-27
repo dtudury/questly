@@ -1,6 +1,6 @@
 {
   "name": "questly",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "promise based browserifiable request wrapper",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,8 @@
   },
   "dependencies": {
     "when": "~2.6.0"
+  },
+  "browser": {
+    "./lib/qRequestNode.js": "./lib/qRequestBrowser.js"
   }
 }
