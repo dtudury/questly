@@ -25,6 +25,7 @@ function put(options, body) {
 
 exports.verbose = true;
 exports.secureProtocol = true;
+exports.withCredentials = false;
 exports.request = request;
 exports.get = get;
 exports.post = post;
